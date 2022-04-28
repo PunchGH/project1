@@ -40,4 +40,4 @@ if UsernameInput == "admin" and PasswordInput == "12345" :
             
             print("key board",number_selected)
             price += 8000 * number_selected
-    print("price : ",price)        
+    print("price  : ",price)        
