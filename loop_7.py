@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 29 09:19:39 2022
-
-@author: gerdg
-"""
-
+x = 1
+times = int(input(">>>"))
+for i in range(times):
+    print(" " * (6 - i),"*" * x)
+    x += 2
