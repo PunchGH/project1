@@ -1,5 +1,6 @@
 total = 0
-
+temp = [[1,2,3,4],{"ew" : 32}]
+print(temp)
 menu_dict = {}
 
 while True:
