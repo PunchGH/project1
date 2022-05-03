@@ -1,0 +1,10 @@
+import csv
+
+with open('TextFile1.txt', mode='w') as employee_file:
+    employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+    employee_writer.writerow(['Junwoo', 'demonslayer', 'bird'])
+    employee_writer.writerow(['tyler', 'demon slayer', 'spider'])
+    employee_writer.writerow(['inam', 'starwar', 'dog'])
+    employee_writer.writerow(['_-_!_'    , '^^^^', 'pig'])
+    employee_writer.writerow(['Punc', 'whoami', 'cat'])
