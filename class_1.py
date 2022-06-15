@@ -17,12 +17,12 @@ customer2.last_name = "Punch"
 customer2.name = "inc"
 customer2.addcart()
 
-customer2 = customer()
-customer2.last_name = "tanat"
-customer2.name = "inc"
-customer2.addcart()
+customer3 = customer()
+customer3.last_name = "tanat"
+customer3.name = "inc"
+customer3.addcart()
 
-customer2 = customer()
-customer2.last_name = "wan"
-customer2.name = "as"
-customer2.addcart()
+customer4 = customer()
+customer4.last_name = "wan"
+customer4.name = "as"
+customer4.addcart()
